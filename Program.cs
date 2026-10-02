@@ -1,0 +1,10 @@
+﻿Car audi= new Car();
+Console.WriteLine("Enter the name of the car:");
+audi.Name = Console.ReadLine();
+Console.WriteLine("Enter the model of the car:");
+audi.Model = Console.ReadLine();
+Console.WriteLine("Enter the year of the car:");
+audi.Year = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Enter the color of the car:");
+audi.Color = Console.ReadLine();
+Console.WriteLine($"Car details - Name: {audi.Name}, Model: {audi.Model}, Year: {audi.Year}, Color: {audi.Color}");
